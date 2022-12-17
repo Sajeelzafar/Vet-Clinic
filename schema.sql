@@ -9,3 +9,6 @@ CREATE TABLE animals(
 	weight_kg		DECIMAL (18, 2),
 	PRIMARY KEY (ID)
 );
+
+ALTER TABLE animals
+  ADD species VARCHAR;
